@@ -24,5 +24,335 @@
         "state": "CA",
         "registrant_postal_code": "94025",
         "country": "US"
+    },
+    "dns_lookup": {
+        "A": {
+            "8.8.8.8": [
+                "157.240.19.35"
+            ],
+            "8.8.4.4": [
+                "157.240.19.35"
+            ],
+            "76.76.2.0": [
+                "157.240.11.35"
+            ],
+            "76.76.10.0": [
+                "157.240.11.35"
+            ],
+            "9.9.9.9": [
+                "157.240.19.35"
+            ],
+            "149.112.112.112": [
+                "157.240.19.35"
+            ],
+            "208.67.222.222": [
+                "157.240.19.35"
+            ],
+            "208.67.220.220": [
+                "157.240.19.35"
+            ],
+            "1.1.1.1": [
+                "31.13.89.35"
+            ],
+            "1.0.0.1": [
+                "31.13.89.35"
+            ],
+            "94.140.14.14": [
+                "157.240.25.35"
+            ],
+            "94.140.15.15": [
+                "157.240.25.35"
+            ],
+            "185.228.168.9": [
+                "31.13.93.35"
+            ],
+            "185.228.169.9": [
+                "163.70.131.35"
+            ],
+            "76.76.19.19": [],
+            "76.223.122.150": []
+        },
+        "AAAA": {
+            "8.8.8.8": [
+                "2a03:2880:f134:83:face:b00c:0:25de"
+            ],
+            "8.8.4.4": [
+                "2a03:2880:f134:83:face:b00c:0:25de"
+            ],
+            "76.76.2.0": [
+                "2a03:2880:f10d:183:face:b00c:0:25de"
+            ],
+            "76.76.10.0": [
+                "2a03:2880:f10d:183:face:b00c:0:25de"
+            ],
+            "9.9.9.9": [
+                "2a03:2880:f134:83:face:b00c:0:25de"
+            ],
+            "149.112.112.112": [
+                "2a03:2880:f134:83:face:b00c:0:25de"
+            ],
+            "208.67.222.222": [
+                "2a03:2880:f134:83:face:b00c:0:25de"
+            ],
+            "208.67.220.220": [
+                "2a03:2880:f134:83:face:b00c:0:25de"
+            ],
+            "1.1.1.1": [
+                "2a03:2880:f134:83:face:b00c:0:25de"
+            ],
+            "1.0.0.1": [
+                "2a03:2880:f134:83:face:b00c:0:25de"
+            ],
+            "94.140.14.14": [
+                "2a03:2880:f135:181:face:b00c:0:25de"
+            ],
+            "94.140.15.15": [
+                "2a03:2880:f135:181:face:b00c:0:25de"
+            ],
+            "185.228.168.9": [
+                "2a03:2880:f134:183:face:b00c:0:25de"
+            ],
+            "185.228.169.9": [
+                "2a03:2880:f17e:82:face:b00c:0:25de"
+            ],
+            "76.76.19.19": [],
+            "76.223.122.150": []
+        },
+        "MX": {
+            "8.8.8.8": [
+                "10 smtpin.vvv.facebook.com."
+            ],
+            "8.8.4.4": [
+                "10 smtpin.vvv.facebook.com."
+            ],
+            "76.76.2.0": [
+                "10 smtpin.vvv.facebook.com."
+            ],
+            "76.76.10.0": [
+                "10 smtpin.vvv.facebook.com."
+            ],
+            "9.9.9.9": [
+                "10 smtpin.vvv.facebook.com."
+            ],
+            "149.112.112.112": [
+                "10 smtpin.vvv.facebook.com."
+            ],
+            "208.67.222.222": [
+                "10 smtpin.vvv.facebook.com."
+            ],
+            "208.67.220.220": [
+                "10 smtpin.vvv.facebook.com."
+            ],
+            "1.1.1.1": [
+                "10 smtpin.vvv.facebook.com."
+            ],
+            "1.0.0.1": [
+                "10 smtpin.vvv.facebook.com."
+            ],
+            "94.140.14.14": [
+                "10 smtpin.vvv.facebook.com."
+            ],
+            "94.140.15.15": [
+                "10 smtpin.vvv.facebook.com."
+            ],
+            "185.228.168.9": [
+                "10 smtpin.vvv.facebook.com."
+            ],
+            "185.228.169.9": [
+                "10 smtpin.vvv.facebook.com."
+            ],
+            "76.76.19.19": [],
+            "76.223.122.150": []
+        },
+        "NS": {
+            "8.8.8.8": [
+                "b.ns.facebook.com.",
+                "d.ns.facebook.com.",
+                "c.ns.facebook.com.",
+                "a.ns.facebook.com."
+            ],
+            "8.8.4.4": [
+                "a.ns.facebook.com.",
+                "d.ns.facebook.com.",
+                "b.ns.facebook.com.",
+                "c.ns.facebook.com."
+            ],
+            "76.76.2.0": [
+                "c.ns.facebook.com.",
+                "a.ns.facebook.com.",
+                "d.ns.facebook.com.",
+                "b.ns.facebook.com."
+            ],
+            "76.76.10.0": [
+                "c.ns.facebook.com.",
+                "a.ns.facebook.com.",
+                "d.ns.facebook.com.",
+                "b.ns.facebook.com."
+            ],
+            "9.9.9.9": [
+                "d.ns.facebook.com.",
+                "b.ns.facebook.com.",
+                "c.ns.facebook.com.",
+                "a.ns.facebook.com."
+            ],
+            "149.112.112.112": [
+                "d.ns.facebook.com.",
+                "b.ns.facebook.com.",
+                "c.ns.facebook.com.",
+                "a.ns.facebook.com."
+            ],
+            "208.67.222.222": [
+                "a.ns.facebook.com.",
+                "b.ns.facebook.com.",
+                "c.ns.facebook.com.",
+                "d.ns.facebook.com."
+            ],
+            "208.67.220.220": [
+                "a.ns.facebook.com.",
+                "b.ns.facebook.com.",
+                "c.ns.facebook.com.",
+                "d.ns.facebook.com."
+            ],
+            "1.1.1.1": [
+                "b.ns.facebook.com.",
+                "d.ns.facebook.com.",
+                "c.ns.facebook.com.",
+                "a.ns.facebook.com."
+            ],
+            "1.0.0.1": [
+                "b.ns.facebook.com.",
+                "d.ns.facebook.com.",
+                "c.ns.facebook.com.",
+                "a.ns.facebook.com."
+            ],
+            "94.140.14.14": [
+                "b.ns.facebook.com.",
+                "d.ns.facebook.com.",
+                "c.ns.facebook.com.",
+                "a.ns.facebook.com."
+            ],
+            "94.140.15.15": [
+                "a.ns.facebook.com.",
+                "b.ns.facebook.com.",
+                "d.ns.facebook.com.",
+                "c.ns.facebook.com."
+            ],
+            "185.228.168.9": [
+                "b.ns.facebook.com.",
+                "c.ns.facebook.com.",
+                "d.ns.facebook.com.",
+                "a.ns.facebook.com."
+            ],
+            "185.228.169.9": [
+                "c.ns.facebook.com.",
+                "a.ns.facebook.com.",
+                "b.ns.facebook.com.",
+                "d.ns.facebook.com."
+            ],
+            "76.76.19.19": [],
+            "76.223.122.150": []
+        },
+        "TXT": {
+            "8.8.8.8": [
+                "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\"",
+                "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\"",
+                "\"zoom-domain-verification=4b2ef4e1-6dee-4483-9869-9bef353fd147\"",
+                "\"google-site-verification=sK6uY9x7eaMoEMfn3OILqwTFYgaNp4llmguKI-C3_iA\"",
+                "\"v=spf1 redirect=_spf.facebook.com\""
+            ],
+            "8.8.4.4": [
+                "\"google-site-verification=sK6uY9x7eaMoEMfn3OILqwTFYgaNp4llmguKI-C3_iA\"",
+                "\"v=spf1 redirect=_spf.facebook.com\"",
+                "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\"",
+                "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\"",
+                "\"zoom-domain-verification=4b2ef4e1-6dee-4483-9869-9bef353fd147\""
+            ],
+            "76.76.2.0": [
+                "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\"",
+                "\"zoom-domain-verification=4b2ef4e1-6dee-4483-9869-9bef353fd147\"",
+                "\"v=spf1 redirect=_spf.facebook.com\"",
+                "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\"",
+                "\"google-site-verification=sK6uY9x7eaMoEMfn3OILqwTFYgaNp4llmguKI-C3_iA\""
+            ],
+            "76.76.10.0": [
+                "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\"",
+                "\"zoom-domain-verification=4b2ef4e1-6dee-4483-9869-9bef353fd147\"",
+                "\"v=spf1 redirect=_spf.facebook.com\"",
+                "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\"",
+                "\"google-site-verification=sK6uY9x7eaMoEMfn3OILqwTFYgaNp4llmguKI-C3_iA\""
+            ],
+            "9.9.9.9": [
+                "\"zoom-domain-verification=4b2ef4e1-6dee-4483-9869-9bef353fd147\"",
+                "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\"",
+                "\"google-site-verification=sK6uY9x7eaMoEMfn3OILqwTFYgaNp4llmguKI-C3_iA\"",
+                "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\"",
+                "\"v=spf1 redirect=_spf.facebook.com\""
+            ],
+            "149.112.112.112": [
+                "\"zoom-domain-verification=4b2ef4e1-6dee-4483-9869-9bef353fd147\"",
+                "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\"",
+                "\"google-site-verification=sK6uY9x7eaMoEMfn3OILqwTFYgaNp4llmguKI-C3_iA\"",
+                "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\"",
+                "\"v=spf1 redirect=_spf.facebook.com\""
+            ],
+            "208.67.222.222": [
+                "\"v=spf1 redirect=_spf.facebook.com\"",
+                "\"zoom-domain-verification=4b2ef4e1-6dee-4483-9869-9bef353fd147\"",
+                "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\"",
+                "\"google-site-verification=sK6uY9x7eaMoEMfn3OILqwTFYgaNp4llmguKI-C3_iA\"",
+                "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\""
+            ],
+            "208.67.220.220": [
+                "\"v=spf1 redirect=_spf.facebook.com\"",
+                "\"zoom-domain-verification=4b2ef4e1-6dee-4483-9869-9bef353fd147\"",
+                "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\"",
+                "\"google-site-verification=sK6uY9x7eaMoEMfn3OILqwTFYgaNp4llmguKI-C3_iA\"",
+                "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\""
+            ],
+            "1.1.1.1": [
+                "\"zoom-domain-verification=4b2ef4e1-6dee-4483-9869-9bef353fd147\"",
+                "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\"",
+                "\"google-site-verification=sK6uY9x7eaMoEMfn3OILqwTFYgaNp4llmguKI-C3_iA\"",
+                "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\"",
+                "\"v=spf1 redirect=_spf.facebook.com\""
+            ],
+            "1.0.0.1": [
+                "\"zoom-domain-verification=4b2ef4e1-6dee-4483-9869-9bef353fd147\"",
+                "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\"",
+                "\"google-site-verification=sK6uY9x7eaMoEMfn3OILqwTFYgaNp4llmguKI-C3_iA\"",
+                "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\"",
+                "\"v=spf1 redirect=_spf.facebook.com\""
+            ],
+            "94.140.14.14": [
+                "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\"",
+                "\"google-site-verification=sK6uY9x7eaMoEMfn3OILqwTFYgaNp4llmguKI-C3_iA\"",
+                "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\"",
+                "\"v=spf1 redirect=_spf.facebook.com\"",
+                "\"zoom-domain-verification=4b2ef4e1-6dee-4483-9869-9bef353fd147\""
+            ],
+            "94.140.15.15": [
+                "\"google-site-verification=sK6uY9x7eaMoEMfn3OILqwTFYgaNp4llmguKI-C3_iA\"",
+                "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\"",
+                "\"v=spf1 redirect=_spf.facebook.com\"",
+                "\"zoom-domain-verification=4b2ef4e1-6dee-4483-9869-9bef353fd147\"",
+                "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\""
+            ],
+            "185.228.168.9": [
+                "\"zoom-domain-verification=4b2ef4e1-6dee-4483-9869-9bef353fd147\"",
+                "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\"",
+                "\"v=spf1 redirect=_spf.facebook.com\"",
+                "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\"",
+                "\"google-site-verification=sK6uY9x7eaMoEMfn3OILqwTFYgaNp4llmguKI-C3_iA\""
+            ],
+            "185.228.169.9": [
+                "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\"",
+                "\"v=spf1 redirect=_spf.facebook.com\"",
+                "\"google-site-verification=sK6uY9x7eaMoEMfn3OILqwTFYgaNp4llmguKI-C3_iA\"",
+                "\"zoom-domain-verification=4b2ef4e1-6dee-4483-9869-9bef353fd147\"",
+                "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\""
+            ],
+            "76.76.19.19": [],
+            "76.223.122.150": []
+        }
     }
 }
