@@ -56,4 +56,4 @@ def whois_to_json(domain, data):
         json.dump(data, f, indent=4)
     print(f"WHOIS saved to {filename}")
 
-
+whois_to_json("openai.com", obtain_whois("openai.com"))

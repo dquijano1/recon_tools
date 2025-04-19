@@ -1,6 +1,8 @@
 import dns.resolver
 import json
 import requests
+from concurrent.futures import ThreadPoolExecutor, as_completed 
+import time
 
 dns_servers = [
     "8.8.8.8", "8.8.4.4",              # Google
@@ -14,55 +16,51 @@ dns_servers = [
     ]
 def get_dns_records(domain):
     #empty dictionary for future json
-    results = {}
-    #list of records we are resolving
-    records = ["A", "AAAA", "MX", "NS", "TXT"]
+    results = {record: {} for record in ["A", "AAAA", "MX", "NS", "TXT"] }
+    pool_task=[]
 
     print(f"\n🔎 DNS Lookup for {domain}")
-    for record_type in records:
-        results[record_type] = {}  # Initialize dict for each type
-        #create resolver for each dns server
-        for dns_ip in dns_servers:
-            resolver = dns.resolver.Resolver()
-            resolver.nameservers = [dns_ip]
-            try:
-                #get answer for specific record type, lifetime can be changed if needed
-                answer = resolver.resolve(domain, record_type, lifetime=5)
-                values = []
-                for rdata in answer:
-                    value = rdata.to_text()
-                    #add record info into a list
-                    values.append(value)
-                if record_type in ["A", "AAAA"]:
-                    geo=[]
-                    for value in values:
-                        ip_info=get_ip_info(value)
-                        geo.append({
-                            "ip": value,
-                            "location": ip_info
-                        })
-                    results[record_type][dns_ip]=geo
-                else:
-                    # Save values to the specific record and specific dns server we are using
-                    results[record_type][dns_ip] = values
-            #if resolver doesnt get an answer or get an eror we set that value to an empty list
-            except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.resolver.NoNameservers):
-                results[record_type][dns_ip] = []
-                continue
-            except Exception as e:
-                results[record_type][dns_ip] = []
-                continue
+    with ThreadPoolExecutor(max_workers=10) as pool_executor:
+        for record_type in results:
+            for dns_ip in dns_servers:
+                pool_task.append(pool_executor.submit(fetch_dns, domain, record_type, dns_ip))
+        for pool_result in as_completed(pool_task):
+            record_type, dns_ip, values= pool_result.result()
+            results[record_type][dns_ip]=values
     return results
+
+def fetch_dns(domain, record_type, dns_ip):
+    resolver= dns.resolver.Resolver()
+    resolver.nameservers= [dns_ip]
+    try:
+        answer= resolver.resolve(domain, record_type, lifetime=5)
+        values= [rdata.to_text() for rdata in answer]
+
+        if record_type in ["A", "AAAA"]:
+            geo_location_info=[]
+            for ip in values:
+                ip_info= get_ip_info(ip)
+                geo_location_info.append({
+                    "ip": ip,
+                    "location": ip_info
+                })
+            return (record_type, dns_ip, geo_location_info)
+        else:
+            return (record_type, dns_ip, values)
+    except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.resolver.NoNameservers):
+        return (record_type, dns_ip, [])
+    except Exception as e:
+        return (record_type, dns_ip, [])
 
 def get_ip_info(ip):
     try:
         url = f"https://ipwho.is/{ip}"
         response = requests.get(url)
+        time.sleep(1)
         data = response.json()
 
         if data["success"]: 
             return {
-                "ip": ip,
                 "country": data["country"],
                 "region": data["region"],
                 "city": data["city"],
@@ -89,4 +87,4 @@ def dns_to_json(domain, dns_data):
     except Exception as e:
         print(f"Error updating the json {e}")
 
-dns_to_json("facebook.com",get_dns_records("facebook.com"))
+dns_to_json("openai.com",get_dns_records("openai.com"))
