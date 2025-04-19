@@ -1,5 +1,6 @@
 import dns.resolver
 import json
+import requests
 
 dns_servers = [
     "8.8.8.8", "8.8.4.4",              # Google
@@ -32,9 +33,18 @@ def get_dns_records(domain):
                     value = rdata.to_text()
                     #add record info into a list
                     values.append(value)
-
-                # Save values to the specific record and specific dns server we are using
-                results[record_type][dns_ip] = values
+                if record_type in ["A", "AAAA"]:
+                    geo=[]
+                    for value in values:
+                        ip_info=get_ip_info(value)
+                        geo.append({
+                            "ip": value,
+                            "location": ip_info
+                        })
+                    results[record_type][dns_ip]=geo
+                else:
+                    # Save values to the specific record and specific dns server we are using
+                    results[record_type][dns_ip] = values
             #if resolver doesnt get an answer or get an eror we set that value to an empty list
             except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.resolver.NoNameservers):
                 results[record_type][dns_ip] = []
@@ -43,6 +53,26 @@ def get_dns_records(domain):
                 results[record_type][dns_ip] = []
                 continue
     return results
+
+def get_ip_info(ip):
+    try:
+        url = f"https://ipwho.is/{ip}"
+        response = requests.get(url)
+        data = response.json()
+
+        if data["success"]: 
+            return {
+                "ip": ip,
+                "country": data["country"],
+                "region": data["region"],
+                "city": data["city"],
+                "org": data["connection"]["org"],
+                "isp": data["connection"]["isp"]
+            }
+        else:
+            return {"ip": ip, "error": data.get("message", "Unknown error")}
+    except Exception as e:
+        return {"ip": ip, "error": str(e)}
 
 
 def dns_to_json(domain, dns_data):
@@ -59,3 +89,4 @@ def dns_to_json(domain, dns_data):
     except Exception as e:
         print(f"Error updating the json {e}")
 
+dns_to_json("facebook.com",get_dns_records("facebook.com"))

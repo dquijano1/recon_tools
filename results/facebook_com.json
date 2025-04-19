@@ -28,92 +28,372 @@
     "dns_lookup": {
         "A": {
             "8.8.8.8": [
-                "157.240.19.35"
+                {
+                    "ip": "157.240.19.35",
+                    "location": {
+                        "ip": "157.240.19.35",
+                        "country": "United States",
+                        "region": "Texas",
+                        "city": "Dallas",
+                        "org": "Facebook, Inc.",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "8.8.4.4": [
-                "157.240.19.35"
+                {
+                    "ip": "157.240.19.35",
+                    "location": {
+                        "ip": "157.240.19.35",
+                        "country": "United States",
+                        "region": "Texas",
+                        "city": "Dallas",
+                        "org": "Facebook, Inc.",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "76.76.2.0": [
-                "157.240.11.35"
+                {
+                    "ip": "31.13.70.36",
+                    "location": {
+                        "ip": "31.13.70.36",
+                        "country": "United States",
+                        "region": "California",
+                        "city": "Los Angeles",
+                        "org": "Meta Platforms Ireland Limited",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "76.76.10.0": [
-                "157.240.11.35"
+                {
+                    "ip": "31.13.70.36",
+                    "location": {
+                        "ip": "31.13.70.36",
+                        "country": "United States",
+                        "region": "California",
+                        "city": "Los Angeles",
+                        "org": "Meta Platforms Ireland Limited",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "9.9.9.9": [
-                "157.240.19.35"
+                {
+                    "ip": "31.13.93.35",
+                    "location": {
+                        "ip": "31.13.93.35",
+                        "country": "United States",
+                        "region": "Texas",
+                        "city": "Dallas",
+                        "org": "Meta Platforms Ireland Limited",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "149.112.112.112": [
-                "157.240.19.35"
+                {
+                    "ip": "31.13.93.35",
+                    "location": {
+                        "ip": "31.13.93.35",
+                        "country": "United States",
+                        "region": "Texas",
+                        "city": "Dallas",
+                        "org": "Meta Platforms Ireland Limited",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "208.67.222.222": [
-                "157.240.19.35"
+                {
+                    "ip": "157.240.19.35",
+                    "location": {
+                        "ip": "157.240.19.35",
+                        "country": "United States",
+                        "region": "Texas",
+                        "city": "Dallas",
+                        "org": "Facebook, Inc.",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "208.67.220.220": [
-                "157.240.19.35"
+                {
+                    "ip": "157.240.19.35",
+                    "location": {
+                        "ip": "157.240.19.35",
+                        "country": "United States",
+                        "region": "Texas",
+                        "city": "Dallas",
+                        "org": "Facebook, Inc.",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "1.1.1.1": [
-                "31.13.89.35"
+                {
+                    "ip": "157.240.19.35",
+                    "location": {
+                        "ip": "157.240.19.35",
+                        "country": "United States",
+                        "region": "Texas",
+                        "city": "Dallas",
+                        "org": "Facebook, Inc.",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "1.0.0.1": [
-                "31.13.89.35"
+                {
+                    "ip": "31.13.89.35",
+                    "location": {
+                        "ip": "31.13.89.35",
+                        "country": "Mexico",
+                        "region": "Quer\u00e9taro",
+                        "city": "Santiago de Quer\u00e9taro",
+                        "org": "Meta Platforms Ireland Limited",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "94.140.14.14": [
-                "157.240.25.35"
+                {
+                    "ip": "157.240.25.35",
+                    "location": {
+                        "ip": "157.240.25.35",
+                        "country": "Mexico",
+                        "region": "Quer\u00e9taro",
+                        "city": "Quer\u00e9taro",
+                        "org": "Facebook, Inc.",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "94.140.15.15": [
-                "157.240.25.35"
+                {
+                    "ip": "157.240.25.35",
+                    "location": {
+                        "ip": "157.240.25.35",
+                        "country": "Mexico",
+                        "region": "Quer\u00e9taro",
+                        "city": "Quer\u00e9taro",
+                        "org": "Facebook, Inc.",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "185.228.168.9": [
-                "31.13.93.35"
+                {
+                    "ip": "31.13.93.35",
+                    "location": {
+                        "ip": "31.13.93.35",
+                        "country": "United States",
+                        "region": "Texas",
+                        "city": "Dallas",
+                        "org": "Meta Platforms Ireland Limited",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "185.228.169.9": [
-                "163.70.131.35"
+                {
+                    "ip": "163.70.131.35",
+                    "location": {
+                        "ip": "163.70.131.35",
+                        "country": "Philippines",
+                        "region": "Metro Manila",
+                        "city": "Manila",
+                        "org": "Meta Platforms Ireland Limited",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "76.76.19.19": [],
             "76.223.122.150": []
         },
         "AAAA": {
             "8.8.8.8": [
-                "2a03:2880:f134:83:face:b00c:0:25de"
+                {
+                    "ip": "2a03:2880:f134:83:face:b00c:0:25de",
+                    "location": {
+                        "ip": "2a03:2880:f134:83:face:b00c:0:25de",
+                        "country": "United States",
+                        "region": "Texas",
+                        "city": "Dallas",
+                        "org": "Meta Platforms Ireland Limited",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "8.8.4.4": [
-                "2a03:2880:f134:83:face:b00c:0:25de"
+                {
+                    "ip": "2a03:2880:f134:83:face:b00c:0:25de",
+                    "location": {
+                        "ip": "2a03:2880:f134:83:face:b00c:0:25de",
+                        "country": "United States",
+                        "region": "Texas",
+                        "city": "Dallas",
+                        "org": "Meta Platforms Ireland Limited",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "76.76.2.0": [
-                "2a03:2880:f10d:183:face:b00c:0:25de"
+                {
+                    "ip": "2a03:2880:f10d:183:face:b00c:0:25de",
+                    "location": {
+                        "ip": "2a03:2880:f10d:183:face:b00c:0:25de",
+                        "country": "United States",
+                        "region": "California",
+                        "city": "Los Angeles",
+                        "org": "Meta Platforms Ireland Limited",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "76.76.10.0": [
-                "2a03:2880:f10d:183:face:b00c:0:25de"
+                {
+                    "ip": "2a03:2880:f10d:183:face:b00c:0:25de",
+                    "location": {
+                        "ip": "2a03:2880:f10d:183:face:b00c:0:25de",
+                        "country": "United States",
+                        "region": "California",
+                        "city": "Los Angeles",
+                        "org": "Meta Platforms Ireland Limited",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "9.9.9.9": [
-                "2a03:2880:f134:83:face:b00c:0:25de"
+                {
+                    "ip": "2a03:2880:f134:183:face:b00c:0:25de",
+                    "location": {
+                        "ip": "2a03:2880:f134:183:face:b00c:0:25de",
+                        "country": "United States",
+                        "region": "Texas",
+                        "city": "Dallas",
+                        "org": "Meta Platforms Ireland Limited",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "149.112.112.112": [
-                "2a03:2880:f134:83:face:b00c:0:25de"
+                {
+                    "ip": "2a03:2880:f134:183:face:b00c:0:25de",
+                    "location": {
+                        "ip": "2a03:2880:f134:183:face:b00c:0:25de",
+                        "country": "United States",
+                        "region": "Texas",
+                        "city": "Dallas",
+                        "org": "Meta Platforms Ireland Limited",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "208.67.222.222": [
-                "2a03:2880:f134:83:face:b00c:0:25de"
+                {
+                    "ip": "2a03:2880:f134:83:face:b00c:0:25de",
+                    "location": {
+                        "ip": "2a03:2880:f134:83:face:b00c:0:25de",
+                        "country": "United States",
+                        "region": "Texas",
+                        "city": "Dallas",
+                        "org": "Meta Platforms Ireland Limited",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "208.67.220.220": [
-                "2a03:2880:f134:83:face:b00c:0:25de"
+                {
+                    "ip": "2a03:2880:f134:83:face:b00c:0:25de",
+                    "location": {
+                        "ip": "2a03:2880:f134:83:face:b00c:0:25de",
+                        "country": "United States",
+                        "region": "Texas",
+                        "city": "Dallas",
+                        "org": "Meta Platforms Ireland Limited",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "1.1.1.1": [
-                "2a03:2880:f134:83:face:b00c:0:25de"
+                {
+                    "ip": "2a03:2880:f135:83:face:b00c:0:25de",
+                    "location": {
+                        "ip": "2a03:2880:f135:83:face:b00c:0:25de",
+                        "country": "Mexico",
+                        "region": "Quer\u00e9taro",
+                        "city": "Quer\u00e9taro",
+                        "org": "Meta Platforms Ireland Limited",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "1.0.0.1": [
-                "2a03:2880:f134:83:face:b00c:0:25de"
+                {
+                    "ip": "2a03:2880:f135:83:face:b00c:0:25de",
+                    "location": {
+                        "ip": "2a03:2880:f135:83:face:b00c:0:25de",
+                        "country": "Mexico",
+                        "region": "Quer\u00e9taro",
+                        "city": "Quer\u00e9taro",
+                        "org": "Meta Platforms Ireland Limited",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "94.140.14.14": [
-                "2a03:2880:f135:181:face:b00c:0:25de"
+                {
+                    "ip": "2a03:2880:f135:181:face:b00c:0:25de",
+                    "location": {
+                        "ip": "2a03:2880:f135:181:face:b00c:0:25de",
+                        "country": "Mexico",
+                        "region": "Quer\u00e9taro",
+                        "city": "Quer\u00e9taro",
+                        "org": "Meta Platforms Ireland Limited",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "94.140.15.15": [
-                "2a03:2880:f135:181:face:b00c:0:25de"
+                {
+                    "ip": "2a03:2880:f135:181:face:b00c:0:25de",
+                    "location": {
+                        "ip": "2a03:2880:f135:181:face:b00c:0:25de",
+                        "country": "Mexico",
+                        "region": "Quer\u00e9taro",
+                        "city": "Quer\u00e9taro",
+                        "org": "Meta Platforms Ireland Limited",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "185.228.168.9": [
-                "2a03:2880:f134:183:face:b00c:0:25de"
+                {
+                    "ip": "2a03:2880:f134:183:face:b00c:0:25de",
+                    "location": {
+                        "ip": "2a03:2880:f134:183:face:b00c:0:25de",
+                        "country": "United States",
+                        "region": "Texas",
+                        "city": "Dallas",
+                        "org": "Meta Platforms Ireland Limited",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "185.228.169.9": [
-                "2a03:2880:f17e:82:face:b00c:0:25de"
+                {
+                    "ip": "2a03:2880:f17e:82:face:b00c:0:25de",
+                    "location": {
+                        "ip": "2a03:2880:f17e:82:face:b00c:0:25de",
+                        "country": "Philippines",
+                        "region": "Metro Manila",
+                        "city": "Manila",
+                        "org": "Meta Platforms Ireland Limited",
+                        "isp": "Facebook, Inc."
+                    }
+                }
             ],
             "76.76.19.19": [],
             "76.223.122.150": []
@@ -167,13 +447,13 @@
         "NS": {
             "8.8.8.8": [
                 "b.ns.facebook.com.",
-                "d.ns.facebook.com.",
                 "c.ns.facebook.com.",
-                "a.ns.facebook.com."
+                "a.ns.facebook.com.",
+                "d.ns.facebook.com."
             ],
             "8.8.4.4": [
-                "a.ns.facebook.com.",
                 "d.ns.facebook.com.",
+                "a.ns.facebook.com.",
                 "b.ns.facebook.com.",
                 "c.ns.facebook.com."
             ],
@@ -232,40 +512,45 @@
                 "a.ns.facebook.com."
             ],
             "94.140.15.15": [
-                "a.ns.facebook.com.",
-                "b.ns.facebook.com.",
-                "d.ns.facebook.com.",
-                "c.ns.facebook.com."
-            ],
-            "185.228.168.9": [
-                "b.ns.facebook.com.",
-                "c.ns.facebook.com.",
-                "d.ns.facebook.com.",
-                "a.ns.facebook.com."
-            ],
-            "185.228.169.9": [
                 "c.ns.facebook.com.",
                 "a.ns.facebook.com.",
                 "b.ns.facebook.com.",
                 "d.ns.facebook.com."
             ],
-            "76.76.19.19": [],
+            "185.228.168.9": [
+                "c.ns.facebook.com.",
+                "d.ns.facebook.com.",
+                "b.ns.facebook.com.",
+                "a.ns.facebook.com."
+            ],
+            "185.228.169.9": [
+                "d.ns.facebook.com.",
+                "b.ns.facebook.com.",
+                "c.ns.facebook.com.",
+                "a.ns.facebook.com."
+            ],
+            "76.76.19.19": [
+                "a.ns.facebook.com.",
+                "b.ns.facebook.com.",
+                "c.ns.facebook.com.",
+                "d.ns.facebook.com."
+            ],
             "76.223.122.150": []
         },
         "TXT": {
             "8.8.8.8": [
-                "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\"",
                 "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\"",
-                "\"zoom-domain-verification=4b2ef4e1-6dee-4483-9869-9bef353fd147\"",
-                "\"google-site-verification=sK6uY9x7eaMoEMfn3OILqwTFYgaNp4llmguKI-C3_iA\"",
-                "\"v=spf1 redirect=_spf.facebook.com\""
-            ],
-            "8.8.4.4": [
                 "\"google-site-verification=sK6uY9x7eaMoEMfn3OILqwTFYgaNp4llmguKI-C3_iA\"",
                 "\"v=spf1 redirect=_spf.facebook.com\"",
-                "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\"",
                 "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\"",
                 "\"zoom-domain-verification=4b2ef4e1-6dee-4483-9869-9bef353fd147\""
+            ],
+            "8.8.4.4": [
+                "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\"",
+                "\"google-site-verification=sK6uY9x7eaMoEMfn3OILqwTFYgaNp4llmguKI-C3_iA\"",
+                "\"zoom-domain-verification=4b2ef4e1-6dee-4483-9869-9bef353fd147\"",
+                "\"v=spf1 redirect=_spf.facebook.com\"",
+                "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\""
             ],
             "76.76.2.0": [
                 "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\"",
@@ -324,11 +609,11 @@
                 "\"v=spf1 redirect=_spf.facebook.com\""
             ],
             "94.140.14.14": [
-                "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\"",
                 "\"google-site-verification=sK6uY9x7eaMoEMfn3OILqwTFYgaNp4llmguKI-C3_iA\"",
                 "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\"",
                 "\"v=spf1 redirect=_spf.facebook.com\"",
-                "\"zoom-domain-verification=4b2ef4e1-6dee-4483-9869-9bef353fd147\""
+                "\"zoom-domain-verification=4b2ef4e1-6dee-4483-9869-9bef353fd147\"",
+                "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\""
             ],
             "94.140.15.15": [
                 "\"google-site-verification=sK6uY9x7eaMoEMfn3OILqwTFYgaNp4llmguKI-C3_iA\"",
@@ -338,18 +623,18 @@
                 "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\""
             ],
             "185.228.168.9": [
-                "\"zoom-domain-verification=4b2ef4e1-6dee-4483-9869-9bef353fd147\"",
-                "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\"",
-                "\"v=spf1 redirect=_spf.facebook.com\"",
                 "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\"",
-                "\"google-site-verification=sK6uY9x7eaMoEMfn3OILqwTFYgaNp4llmguKI-C3_iA\""
-            ],
-            "185.228.169.9": [
-                "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\"",
                 "\"v=spf1 redirect=_spf.facebook.com\"",
                 "\"google-site-verification=sK6uY9x7eaMoEMfn3OILqwTFYgaNp4llmguKI-C3_iA\"",
                 "\"zoom-domain-verification=4b2ef4e1-6dee-4483-9869-9bef353fd147\"",
-                "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\""
+                "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\""
+            ],
+            "185.228.169.9": [
+                "\"google-site-verification=sK6uY9x7eaMoEMfn3OILqwTFYgaNp4llmguKI-C3_iA\"",
+                "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\"",
+                "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\"",
+                "\"zoom-domain-verification=4b2ef4e1-6dee-4483-9869-9bef353fd147\"",
+                "\"v=spf1 redirect=_spf.facebook.com\""
             ],
             "76.76.19.19": [],
             "76.223.122.150": []
