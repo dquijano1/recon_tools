@@ -33,7 +33,7 @@ def fetch_dns(domain, record_type, dns_ip):
     resolver= dns.resolver.Resolver()
     resolver.nameservers= [dns_ip]
     try:
-        answer= resolver.resolve(domain, record_type, lifetime=5)
+        answer= resolver.resolve(domain, record_type, lifetime=10)
         values= [rdata.to_text() for rdata in answer]
 
         if record_type in ["A", "AAAA"]:
@@ -87,4 +87,4 @@ def dns_to_json(domain, dns_data):
     except Exception as e:
         print(f"Error updating the json {e}")
 
-dns_to_json("openai.com",get_dns_records("openai.com"))
+dns_to_json("superette.com.mx",get_dns_records("superette.com.mx"))

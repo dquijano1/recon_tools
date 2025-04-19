@@ -1,0 +1,361 @@
+{
+    "whois": {
+        "domain_name": "superette.com.mx",
+        "creation_date": "2009-04-01 00:00:00",
+        "domain_age": {
+            "day_since_creation": 5862,
+            "is_suspicious": false
+        },
+        "updated_date": "2024-01-31 00:00:00",
+        "expiration_date": "2027-03-31 00:00:00",
+        "url": "http://www.key-systems.net",
+        "name_servers": "['ns1.dreamhost.com', 'ns2.dreamhost.com', 'ns3.dreamhost.com']",
+        "registrar": "Key-Systems GmbH",
+        "registrant_name": "Antonio Jimenez",
+        "registrant_city": "Cd. Juarez",
+        "registrant_state": "Chihuahua",
+        "registrant_country": "Mexico",
+        "admin": "Antonio Jimenez",
+        "admin_city": "Cd. Juarez",
+        "admin_country": "Mexico",
+        "admin_state": "Chihuahua",
+        "tech_name": "Antonio Jimenez",
+        "tech_city": "Cd. Juarez",
+        "tech_state": "Chihuahua",
+        "tech_country": "Mexico",
+        "billing_name": "Sylvain Poirier",
+        "billing_city": "Montreal",
+        "billing_state": "Quebec",
+        "billing_country": "Canada"
+    },
+    "dns_lookup": {
+        "A": {
+            "149.112.112.112": [
+                {
+                    "ip": "173.236.248.241",
+                    "location": {
+                        "country": "United States",
+                        "region": "California",
+                        "city": "Brea",
+                        "org": "New Dream Network, LLC",
+                        "isp": "New Dream Network, LLC"
+                    }
+                }
+            ],
+            "76.76.2.0": [
+                {
+                    "ip": "173.236.248.241",
+                    "location": {
+                        "country": "United States",
+                        "region": "California",
+                        "city": "Brea",
+                        "org": "New Dream Network, LLC",
+                        "isp": "New Dream Network, LLC"
+                    }
+                }
+            ],
+            "9.9.9.9": [
+                {
+                    "ip": "173.236.248.241",
+                    "location": {
+                        "country": "United States",
+                        "region": "California",
+                        "city": "Brea",
+                        "org": "New Dream Network, LLC",
+                        "isp": "New Dream Network, LLC"
+                    }
+                }
+            ],
+            "76.76.10.0": [
+                {
+                    "ip": "173.236.248.241",
+                    "location": {
+                        "country": "United States",
+                        "region": "California",
+                        "city": "Brea",
+                        "org": "New Dream Network, LLC",
+                        "isp": "New Dream Network, LLC"
+                    }
+                }
+            ],
+            "208.67.220.220": [
+                {
+                    "ip": "173.236.248.241",
+                    "location": {
+                        "country": "United States",
+                        "region": "California",
+                        "city": "Brea",
+                        "org": "New Dream Network, LLC",
+                        "isp": "New Dream Network, LLC"
+                    }
+                }
+            ],
+            "8.8.4.4": [
+                {
+                    "ip": "173.236.248.241",
+                    "location": {
+                        "country": "United States",
+                        "region": "California",
+                        "city": "Brea",
+                        "org": "New Dream Network, LLC",
+                        "isp": "New Dream Network, LLC"
+                    }
+                }
+            ],
+            "8.8.8.8": [
+                {
+                    "ip": "173.236.248.241",
+                    "location": {
+                        "country": "United States",
+                        "region": "California",
+                        "city": "Brea",
+                        "org": "New Dream Network, LLC",
+                        "isp": "New Dream Network, LLC"
+                    }
+                }
+            ],
+            "208.67.222.222": [
+                {
+                    "ip": "173.236.248.241",
+                    "location": {
+                        "country": "United States",
+                        "region": "California",
+                        "city": "Brea",
+                        "org": "New Dream Network, LLC",
+                        "isp": "New Dream Network, LLC"
+                    }
+                }
+            ],
+            "1.1.1.1": [
+                {
+                    "ip": "173.236.248.241",
+                    "location": {
+                        "country": "United States",
+                        "region": "California",
+                        "city": "Brea",
+                        "org": "New Dream Network, LLC",
+                        "isp": "New Dream Network, LLC"
+                    }
+                }
+            ],
+            "1.0.0.1": [
+                {
+                    "ip": "173.236.248.241",
+                    "location": {
+                        "country": "United States",
+                        "region": "California",
+                        "city": "Brea",
+                        "org": "New Dream Network, LLC",
+                        "isp": "New Dream Network, LLC"
+                    }
+                }
+            ],
+            "185.228.168.9": [
+                {
+                    "ip": "173.236.248.241",
+                    "location": {
+                        "country": "United States",
+                        "region": "California",
+                        "city": "Brea",
+                        "org": "New Dream Network, LLC",
+                        "isp": "New Dream Network, LLC"
+                    }
+                }
+            ],
+            "94.140.14.14": [
+                {
+                    "ip": "173.236.248.241",
+                    "location": {
+                        "country": "United States",
+                        "region": "California",
+                        "city": "Brea",
+                        "org": "New Dream Network, LLC",
+                        "isp": "New Dream Network, LLC"
+                    }
+                }
+            ],
+            "185.228.169.9": [
+                {
+                    "ip": "173.236.248.241",
+                    "location": {
+                        "country": "United States",
+                        "region": "California",
+                        "city": "Brea",
+                        "org": "New Dream Network, LLC",
+                        "isp": "New Dream Network, LLC"
+                    }
+                }
+            ],
+            "94.140.15.15": [
+                {
+                    "ip": "173.236.248.241",
+                    "location": {
+                        "country": "United States",
+                        "region": "California",
+                        "city": "Brea",
+                        "org": "New Dream Network, LLC",
+                        "isp": "New Dream Network, LLC"
+                    }
+                }
+            ],
+            "76.223.122.150": [],
+            "76.76.19.19": []
+        },
+        "AAAA": {
+            "8.8.8.8": [],
+            "8.8.4.4": [],
+            "76.76.10.0": [],
+            "76.76.2.0": [],
+            "9.9.9.9": [],
+            "208.67.220.220": [],
+            "208.67.222.222": [],
+            "149.112.112.112": [],
+            "1.1.1.1": [],
+            "1.0.0.1": [],
+            "94.140.14.14": [],
+            "94.140.15.15": [],
+            "185.228.168.9": [],
+            "185.228.169.9": [],
+            "76.76.19.19": [],
+            "76.223.122.150": []
+        },
+        "MX": {
+            "8.8.8.8": [
+                "0 mail.superette.com.mx."
+            ],
+            "8.8.4.4": [
+                "0 mail.superette.com.mx."
+            ],
+            "76.76.10.0": [
+                "0 mail.superette.com.mx."
+            ],
+            "76.76.2.0": [
+                "0 mail.superette.com.mx."
+            ],
+            "9.9.9.9": [
+                "0 mail.superette.com.mx."
+            ],
+            "149.112.112.112": [
+                "0 mail.superette.com.mx."
+            ],
+            "208.67.222.222": [
+                "0 mail.superette.com.mx."
+            ],
+            "1.1.1.1": [
+                "0 mail.superette.com.mx."
+            ],
+            "208.67.220.220": [
+                "0 mail.superette.com.mx."
+            ],
+            "94.140.14.14": [
+                "0 mail.superette.com.mx."
+            ],
+            "94.140.15.15": [
+                "0 mail.superette.com.mx."
+            ],
+            "1.0.0.1": [
+                "0 mail.superette.com.mx."
+            ],
+            "185.228.168.9": [
+                "0 mail.superette.com.mx."
+            ],
+            "185.228.169.9": [
+                "0 mail.superette.com.mx."
+            ],
+            "76.223.122.150": [],
+            "76.76.19.19": []
+        },
+        "NS": {
+            "8.8.8.8": [
+                "ns2.dreamhost.com.",
+                "ns3.dreamhost.com.",
+                "ns1.dreamhost.com."
+            ],
+            "8.8.4.4": [
+                "ns1.dreamhost.com.",
+                "ns2.dreamhost.com.",
+                "ns3.dreamhost.com."
+            ],
+            "9.9.9.9": [
+                "ns2.dreamhost.com.",
+                "ns3.dreamhost.com.",
+                "ns1.dreamhost.com."
+            ],
+            "76.76.2.0": [
+                "ns3.dreamhost.com.",
+                "ns2.dreamhost.com.",
+                "ns1.dreamhost.com."
+            ],
+            "76.76.10.0": [
+                "ns3.dreamhost.com.",
+                "ns2.dreamhost.com.",
+                "ns1.dreamhost.com."
+            ],
+            "149.112.112.112": [
+                "ns2.dreamhost.com.",
+                "ns3.dreamhost.com.",
+                "ns1.dreamhost.com."
+            ],
+            "1.1.1.1": [
+                "ns1.dreamhost.com.",
+                "ns3.dreamhost.com.",
+                "ns2.dreamhost.com."
+            ],
+            "208.67.220.220": [
+                "ns1.dreamhost.com.",
+                "ns2.dreamhost.com.",
+                "ns3.dreamhost.com."
+            ],
+            "208.67.222.222": [
+                "ns1.dreamhost.com.",
+                "ns2.dreamhost.com.",
+                "ns3.dreamhost.com."
+            ],
+            "94.140.14.14": [
+                "ns2.dreamhost.com.",
+                "ns1.dreamhost.com.",
+                "ns3.dreamhost.com."
+            ],
+            "94.140.15.15": [
+                "ns2.dreamhost.com.",
+                "ns1.dreamhost.com.",
+                "ns3.dreamhost.com."
+            ],
+            "185.228.168.9": [
+                "ns3.dreamhost.com.",
+                "ns1.dreamhost.com.",
+                "ns2.dreamhost.com."
+            ],
+            "185.228.169.9": [
+                "ns3.dreamhost.com.",
+                "ns1.dreamhost.com.",
+                "ns2.dreamhost.com."
+            ],
+            "1.0.0.1": [
+                "ns1.dreamhost.com.",
+                "ns3.dreamhost.com.",
+                "ns2.dreamhost.com."
+            ],
+            "76.76.19.19": [],
+            "76.223.122.150": []
+        },
+        "TXT": {
+            "8.8.8.8": [],
+            "8.8.4.4": [],
+            "76.76.10.0": [],
+            "76.76.2.0": [],
+            "149.112.112.112": [],
+            "9.9.9.9": [],
+            "208.67.222.222": [],
+            "208.67.220.220": [],
+            "1.0.0.1": [],
+            "1.1.1.1": [],
+            "94.140.15.15": [],
+            "94.140.14.14": [],
+            "185.228.168.9": [],
+            "185.228.169.9": [],
+            "76.76.19.19": [],
+            "76.223.122.150": []
+        }
+    }
+}
