@@ -1,14 +1,24 @@
 import whois
 from datetime import datetime, timezone
+from dateutil import parser
+import os
+import json
 
 def obtain_whois(domain):
     print(f"Obtaining ❓WHOIS❓ for {domain}")
+    results={"whois":{}}
     try:
         w= whois.whois(domain)
         for key, value in w.items():
-            print(f"{key}: {value}")
+            if isinstance(value,(list,datetime)):
+                results["whois"][key]=str(value)
+            else:
+                results["whois"][key]=value
             if key =="creation_date":
-                domain_is_recent(value[1])
+                creation_analysis=domain_is_recent(value)
+                if creation_analysis:
+                    results["whois"]["domain_age"]=creation_analysis
+        return results     
     except Exception as e:
         print(f"Error obtaining WHOIS for {domain}")
         print(e)
@@ -21,19 +31,29 @@ def domain_is_recent(creation_date, minimum_creation=30):
     try:
         #verify if the creation date is a datetime object
         if not isinstance(creation_date, datetime):
-            print(f"Error: date must be a datetime object.")
-            return
+            creation_date=parser.parser(str(creation_date))
+        
+        if creation_date.tzinfo is None:
+            creation_date= creation_date.replace(tzinfo=timezone.utc)
         #get current date of the system
         current_date= datetime.now(timezone.utc)
         difference=current_date-creation_date
         difference=difference.days
 
         #if the difference is less than the threshold we set then could be a phishing domain
-        if difference< minimum_creation:
-            print(f"Domain was created {difference} days ago. Could be sus!!")
-        else:
-            print(f"Domain was created {difference} days ago. This is not sus :)")
+        return {
+            "day_since_creation": difference,
+            "is_suspicious": difference< minimum_creation
+        }
         
     except Exception as e:
         print(f"Error processing {creation_date}")
 
+def whois_to_json(domain, data):
+    os.makedirs("results", exist_ok=True)
+    filename=f"results/{domain.replace('.','_')}.json"
+    with open(filename, 'w') as f:
+        json.dump(data, f, indent=4)
+    print(f"WHOIS saved to {filename}")
+
+whois_to_json("facebook.com", obtain_whois("facebook.com"))
