@@ -87,4 +87,3 @@ def dns_to_json(domain, dns_data):
     except Exception as e:
         print(f"Error updating the json {e}")
 
-dns_to_json("superette.com.mx",get_dns_records("superette.com.mx"))
